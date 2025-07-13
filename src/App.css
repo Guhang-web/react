@@ -1,0 +1,13 @@
+.red {
+  color: red;
+}
+/* 보통 App.css는 레이아웃용으로 사용 좋음
+className은 따로 사용하는게 좋음 (새파일 추천)
+*/
+
+.bg-main {
+  background-image: url('../public/logo192.png');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
